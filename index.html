@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Speck Academy</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>My technologies</h1>
+            <div class="container-inner">
+                <div class="left">
+                    <label for="inputField"></label>
+                    <input type="text" id="inputField" name="inputField" placeholder="Enter new technology...">
+                    <button class="red-button" onclick="createCustomButton()">Add</button>
+                </div>
+
+                <div class="right">
+                    <div><a href="javascript:" class="remove-items" onclick="removeAll()">Remove all items</a></div>
+                </div>
+            </div>
+            <div id="resultContainer"></div>
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
